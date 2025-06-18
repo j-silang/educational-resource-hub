@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 56px;
+}
+
+/*Section sizes*/
+#home,
+#categories-section,
+#mission
+{
+  height: calc(100vh - 56px);
+}
+
+@media (min-aspect-ratio: 1/1) and (max-height: 576px) {
+  #home,
+  #categories-section
+  {
+    height: 100vw;
+  }
+}
+
+#about {
+  height: calc(100vh + 70.4px);
+}
+
+/*Background*/
+#home {
+  background: 
+    linear-gradient(
+      rgba(0, 34, 65, 0.61),
+      rgba(0, 34, 65, 0.61)
+    ),
+  url("./images/AdobeStock_419269782-scaled.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#categories-section {
+  background: 
+    linear-gradient(
+      rgba(0, 34, 65, 0.61),
+      rgba(0, 34, 65, 0.61)
+    ),
+  url("./images/which-development-job-is-right-for-you.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mission {
+  background: 
+    linear-gradient(
+      rgba(0, 34, 65, 0.61),
+      rgba(0, 34, 65, 0.61)
+    ),
+  url("./images/students-AdobeStock_428930939.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*misc*/
+.main-text {
+  color: #ffffff;
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,  
+    -1px  1px 0 #000,  
+     1px  1px 0 #000;
+}
+
+#introduction p {
+  max-width: 60vw;
+}
+
+#contact p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Featured*/
+#featured-cards .card{
+  max-width: 320px;
+}
+
+#featured-cards img{
+  height: 192px;
+  width: 192px;
+}
+
+#featured-carousel .card {
+  max-width: 256px;
+}
+
+#featured-carousel img {
+  height: 170px;
+  width: 170px;
+}
+
+
+/*Categories*/
+#categories-cards .card{
+  max-width: 320px;
+}
+
+#categories-carousel .card {
+  max-width: 256px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(1) grayscale(1);
+}

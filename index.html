@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educational Resource Hub</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EduHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#categories-section">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mission">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Home Section -->
+  <section id="home" class="container-fluid text-center pt-3 mb-lg-0">
+    
+    <!-- Introduction Section -->
+    <div id="introduction" class="mb-5">
+      <h1 class="main-text">Introduction</h1>
+      <p class="main-text d-none d-sm-block mx-auto">Welcome to the Educational Resource Hub — your go-to destination for curated learning materials, helpful guides, and up-to-date tools across a wide range of subjects. Whether you're just starting your educational journey or looking to sharpen your skills, you'll find resources here to support and inspire your growth.</p>
+      <p class="main-text d-sm-none mx-auto">Welcome to the Educational Resource Hub</p>
+    </div>
+
+    <!-- Featured Section -->
+    <div id="featured">
+      <h1 class="main-text">Featured</h1>
+      <p class="main-text">Explore top curated learning resources handpicked for you.</p>
+    </div>
+
+    <!-- Cards -->
+    <div id="featured-cards" class="container-fluid w-75 d-none d-lg-block">
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <img src="./images/icons8-bootstrap-480.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Bootstrap</h4>
+              <p class="card-text">A popular CSS framework for building responsive and visually consistent websites quickly.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <img src="./images/icons8-javascript-480.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">JavaScript</h4>
+              <p class="card-text">A scripting language that brings interactivity and dynamic behavior to web pages.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <img src="./images/React.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">React</h4>
+              <p class="card-text">A JavaScript library for building fast, modular user interfaces using components.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="featured-carousel" class="carousel slide d-lg-none mx-auto" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="card mx-auto">
+            <img src="./images/icons8-bootstrap-480.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Bootstrap</h4>
+              <p class="card-text">A popular CSS framework for building responsive and visually consistent websites quickly.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <img src="./images/icons8-javascript-480.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">JavaScript</h4>
+              <p class="card-text">A scripting language that brings interactivity and dynamic behavior to web pages.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <img src="./images/React.png" class="card-img-top mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">React</h4>
+              <p class="card-text">A JavaScript library for building fast, modular user interfaces using components.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#featured-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#featured-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Categories Section -->
+  <section id="categories-section" class="container-fluid text-center pt-3">
+    <div id="categories">
+      <h1 class="main-text">Categories</h1>
+      <p class="main-text">Discover key topic areas to focus your learning journey.</p>
+    </div>
+
+    <!-- Cards -->
+    <div id="categories-cards" class="container-fluid w-75 d-none d-lg-block mb-5">
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Front-End</h4>
+              <p class="card-text">The part of a website or app users interact with directly — the visual and interactive elements.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Back-End</h4>
+              <p class="card-text">The behind-the-scenes systems that handle data, logic, and server operations.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Fullstack</h4>
+              <p class="card-text">A combination of frontend and backend development skills used to build complete web applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Carousel -->
+    <div id="categories-carousel" class="carousel slide d-lg-none mx-auto mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#categories-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#categories-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Resources -->
+    <div id="resources">
+      <h2 class="main-text">Sample Resources</h2>
+      <p class="main-text">Links, tools, and other reference materials provided here.</p>
+      <ul class="list-unstyled">
+        <li><a href="https://getbootstrap.com/" target="_blank" class="main-text">Bootstrap</a></li>
+        <li><a href="https://nodejs.org/en" target="_blank" class="main-text">Node.js</a></li>
+        <li><a href="https://expressjs.com/" target="_blank" class="main-text">Express.js</a></li>
+        <li><a href="https://react.dev/" target="_blank" class="main-text">React</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="container-fluid text-center px-0">
+    <div id="mission" class="position-relative">
+      <div id="mission-text" class="position-absolute top-50 start-50 translate-middle w-75">
+        <h1 class="main-text">Our Mission</h1>
+        <h3 class="main-text">Our mission is to make learning accessible, engaging, and effective by providing a curated collection of educational resources that empower learners of all levels to grow and succeed.</h3>
+      </div>
+    </div>
+    <div id="contact" class="bg-dark py-3">
+      <h2 class="text-light">Contact</h2>
+      <p class="text-secondary">Email: johann.silang@gmail.com</p>
+      <p class="text-secondary">Phone: +63-991-883-3320</p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
