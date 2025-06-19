@@ -105,7 +105,3 @@ html {
 #categories-carousel .card {
   max-width: 256px;
 }
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  filter: invert(1) grayscale(1);
-}
